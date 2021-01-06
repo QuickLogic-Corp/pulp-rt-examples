@@ -22,7 +22,8 @@ int __rt_fpga_periph_frequency = 	 5000000; // e.g. 10000000 for 10MHz;
 
 int main()
 {
-  printf("Hello !\n");
+  printf("Hello !\r\n");
+  printf("...bye\r\n");
 
   return 0;
 }
